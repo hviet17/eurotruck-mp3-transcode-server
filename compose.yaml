@@ -1,0 +1,10 @@
+services:
+  server:
+    image: hviet17/eurotruck-mp3-transcode-server
+    container_name: eurotruck-mp3-transcode-server
+    build:
+      context: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 80:80

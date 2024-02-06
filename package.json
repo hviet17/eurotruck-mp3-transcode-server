@@ -1,0 +1,20 @@
+{
+  "name": "eurotruck-mp3-transcode-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker compose up",
+    "build": "docker compose build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hviet17/eurotruck-mp3-transcode-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hviet17/eurotruck-mp3-transcode-server/issues"
+  },
+  "homepage": "https://github.com/hviet17/eurotruck-mp3-transcode-server#readme"
+}
